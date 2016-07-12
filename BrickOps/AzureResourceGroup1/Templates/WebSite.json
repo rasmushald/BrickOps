@@ -34,10 +34,16 @@
       "metadata": {
         "description": "Describes plan's instance count"
       }
+    },
+    "webSiteName": {
+      "type": "string",
+      "metadata": {
+        "description": "Name of azure web app"
+      }
     }
   },
   "variables": {
-    "webSiteName": "[concat('webSite', uniqueString(resourceGroup().id))]"
+    "webSiteName": "[parameters('webSiteName')]"
   },
   "resources": [
     {
