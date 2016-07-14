@@ -3,11 +3,11 @@
 #
 #$ResourceGroup = "BrickOps005"
 #Get-AzureRmResource
-Find-AzureRmResource -ResourceGroupNameContains "$ResourceGroup" | measure-object
+Find-AzureRmResource -ResourceGroupNameContains $ResourceGroup | measure-object
 
 
 #Testing number of Resources
-$NumberOfResources = Find-AzureRmResource -ResourceGroupNameContains "$ResourceGroup" | measure-object
+$NumberOfResources = Find-AzureRmResource -ResourceGroupNameContains $ResourceGroup | measure-object
 $NumberOfResources.Count 
 $NumberOfResourcesCount = $NumberOfResources.Count -eq 8
 $NumberOfResourcesCount 
@@ -18,7 +18,7 @@ if ($NumberOfResourcesCount -like "false")
 
 
 #Testing number of Websites
-$NumberOfWebapps = Find-AzureRmResource -ResourceGroupNameContains "$ResourceGroup" -ResourceType "microsoft.web/sites" | measure-object
+$NumberOfWebapps = Find-AzureRmResource -ResourceGroupNameContains $ResourceGroup -ResourceType "microsoft.web/sites" | measure-object
 $NumberOfWebapps.Count 
 $NumberOfWebappsCount = $NumberOfWebapps.Count -eq 1
 $NumberOfWebappsCount 
@@ -29,7 +29,7 @@ if ($NumberOfWebappsCount -like "false")
 
 
 #Testing number of HostingPlans
-$NumberOfPlans = Find-AzureRmResource -ResourceGroupNameContains "$ResourceGroup" -ResourceType "Microsoft.Web/serverfarms" | measure-object
+$NumberOfPlans = Find-AzureRmResource -ResourceGroupNameContains $ResourceGroup -ResourceType "Microsoft.Web/serverfarms" | measure-object
 $NumberOfPlans.Count 
 $NumberOfPlansCount = $NumberOfPlans.Count -eq 1
 $NumberOfPlansCount 
