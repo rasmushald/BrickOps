@@ -12,7 +12,7 @@ $NumberOfResourcesCount = $NumberOfResources.Count -eq 8
 $NumberOfResourcesCount 
 if ($NumberOfResourcesCount -like "false") 
     {
-    Throw "Ooops!!  Somethings wrong with the numerber of Resources in the Resource Group"
+    Throw "Ooops!!  Something is wrong with the number of Resources in the Resource Group"
     }
 
 
@@ -23,7 +23,7 @@ $NumberOfWebappsCount = $NumberOfWebapps.Count -eq 1
 $NumberOfWebappsCount 
 if ($NumberOfWebappsCount -like "false") 
     {
-    Throw "Ooops!!  Somethings wrong with the numerber of Websites"
+    Throw "Ooops!!  Something is wrong with the number of Websites"
     }
 
 
@@ -34,5 +34,5 @@ $NumberOfPlansCount = $NumberOfPlans.Count -eq 1
 $NumberOfPlansCount 
 if ($NumberOfPlansCount -like "false") 
     {
-    Throw "Ooops!! Somethings wrong with the numerber of Hosting Plans"
+    Throw "Ooops!! Something is wrong with the number of Hosting Plans"
     }
