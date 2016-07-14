@@ -1,7 +1,13 @@
 #
-# Script.ps1
+# Azure RG Unit Test
 #
-$ResourceGroup = "BrickOps005"
+Param(
+    [Parameter(Mandatory = $true)]
+    [ValidatePattern("^[a-z0-9]*$")]
+    [String]$ResourceGroup              # required    Resource Group Name    
+    )
+Echo $ResourceGroup
+Echo --------
 #Get-AzureRmResource
 Find-AzureRmResource -ResourceGroupNameContains $ResourceGroup | measure-object
 
