@@ -1,7 +1,7 @@
 #
 # Script.ps1
 #
-#$ResourceGroup = "BrickOps005"
+$ResourceGroup = "BrickOps005"
 #Get-AzureRmResource
 Find-AzureRmResource -ResourceGroupNameContains $ResourceGroup | measure-object
 
@@ -9,7 +9,7 @@ Find-AzureRmResource -ResourceGroupNameContains $ResourceGroup | measure-object
 #Testing number of Resources
 $NumberOfResources = Find-AzureRmResource -ResourceGroupNameContains $ResourceGroup | measure-object
 $NumberOfResources.Count 
-$NumberOfResourcesCount = $NumberOfResources.Count -eq 8
+$NumberOfResourcesCount = $NumberOfResources.Count -eq 9
 $NumberOfResourcesCount 
 if ($NumberOfResourcesCount -like "false") 
     {
