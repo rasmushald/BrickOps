@@ -160,7 +160,7 @@
       "properties": {
         "name": "[concat('ServerErrors ', variables('webSiteName'))]",
         "description": "[concat(variables('webSiteName'), ' has some server errors, status code 5xx.')]",
-        "isEnabled": false,
+        "isEnabled": true,
         "condition": {
           "odata.type": "Microsoft.Azure.Management.Insights.Models.ThresholdRuleCondition",
           "dataSource": {
@@ -194,7 +194,7 @@
       "properties": {
         "name": "[concat('ForbiddenRequests ', variables('webSiteName'))]",
         "description": "[concat(variables('webSiteName'), ' has some requests that are forbidden, status code 403.')]",
-        "isEnabled": false,
+        "isEnabled": true,
         "condition": {
           "odata.type": "Microsoft.Azure.Management.Insights.Models.ThresholdRuleCondition",
           "dataSource": {
@@ -228,7 +228,7 @@
       "properties": {
         "name": "[concat('CPUHigh ', parameters('hostingPlanName'))]",
         "description": "[concat('The average CPU is high across all the instances of ', parameters('hostingPlanName'))]",
-        "isEnabled": false,
+        "isEnabled": true,
         "condition": {
           "odata.type": "Microsoft.Azure.Management.Insights.Models.ThresholdRuleCondition",
           "dataSource": {
