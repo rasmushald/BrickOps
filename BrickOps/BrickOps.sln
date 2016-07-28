@@ -5,6 +5,8 @@ VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication1", "WebApplication1\WebApplication1.csproj", "{5C4538A4-6E9C-48E1-9B55-6F19CADF413B}"
 EndProject
+Project("{151D2E53-A2C4-4D7D-83FE-D05416EBD58E}") = "AzureResourceGroup4", "AzureResourceGroup4\AzureResourceGroup4.deployproj", "{EE1CFC40-6C0C-490A-879E-28687F63BEB1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{5C4538A4-6E9C-48E1-9B55-6F19CADF413B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5C4538A4-6E9C-48E1-9B55-6F19CADF413B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5C4538A4-6E9C-48E1-9B55-6F19CADF413B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE1CFC40-6C0C-490A-879E-28687F63BEB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE1CFC40-6C0C-490A-879E-28687F63BEB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE1CFC40-6C0C-490A-879E-28687F63BEB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE1CFC40-6C0C-490A-879E-28687F63BEB1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
