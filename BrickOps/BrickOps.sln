@@ -7,6 +7,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication1", "WebAppli
 EndProject
 Project("{151D2E53-A2C4-4D7D-83FE-D05416EBD58E}") = "DemoBrickOps010", "DemoBrickOps010\DemoBrickOps010.deployproj", "{DFABF527-30D2-4745-BFC8-A46C5A68E4FB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAndLoadTestProject3", "WebAndLoadTestProject3\WebAndLoadTestProject3.csproj", "{B2D1C1DE-FA00-44D8-BFE8-0D6C33D6E4C1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{18F3AB32-05FF-473C-B9AB-8D1771C8889F}"
+	ProjectSection(SolutionItems) = preProject
+		Local.testsettings = Local.testsettings
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +28,10 @@ Global
 		{DFABF527-30D2-4745-BFC8-A46C5A68E4FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DFABF527-30D2-4745-BFC8-A46C5A68E4FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DFABF527-30D2-4745-BFC8-A46C5A68E4FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2D1C1DE-FA00-44D8-BFE8-0D6C33D6E4C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2D1C1DE-FA00-44D8-BFE8-0D6C33D6E4C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2D1C1DE-FA00-44D8-BFE8-0D6C33D6E4C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2D1C1DE-FA00-44D8-BFE8-0D6C33D6E4C1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
