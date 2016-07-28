@@ -42,3 +42,13 @@ if ($NumberOfPlansCount -like "false")
     {
     Throw "Ooops!! Something is wrong with the number of Hosting Plans"
     }
+
+#Testing name of WebApp
+$NameOfWebApp = Find-AzureRmResource -ResourceGroupNameContains $ResourceGroup -ResourceType "Microsoft.Web/sites"
+ECHO "Name of WebApp:" $NameOfWebApp.Name
+$NameOfWebApp.name -eq $ResourceGroup
+ECHO "Test pass:" $NumberOfPlansCount
+if ($NumberOfPlansCount -like "false") 
+    {
+    Throw "Ooops!! Something is wrong with the name of the WebApp"
+    }
