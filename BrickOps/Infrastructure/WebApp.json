@@ -8,7 +8,7 @@
     },
     "skuName": {
       "type": "string",
-      "defaultValue": "B1",
+      "defaultValue": "B2",
       "allowedValues": [
         "F1",
         "D1",
