@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.25123.0
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication1", "WebApplication1\WebApplication1.csproj", "{5C4538A4-6E9C-48E1-9B55-6F19CADF413B}"
+EndProject
+Project("{151D2E53-A2C4-4D7D-83FE-D05416EBD58E}") = "DemoBrickOps021", "DemoBrickOps021\DemoBrickOps021.deployproj", "{BD29F7D2-840E-4FE2-A06D-CB57F2A1A565}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{5C4538A4-6E9C-48E1-9B55-6F19CADF413B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5C4538A4-6E9C-48E1-9B55-6F19CADF413B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5C4538A4-6E9C-48E1-9B55-6F19CADF413B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD29F7D2-840E-4FE2-A06D-CB57F2A1A565}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD29F7D2-840E-4FE2-A06D-CB57F2A1A565}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD29F7D2-840E-4FE2-A06D-CB57F2A1A565}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD29F7D2-840E-4FE2-A06D-CB57F2A1A565}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
